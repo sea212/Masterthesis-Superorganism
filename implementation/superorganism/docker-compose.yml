@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+  dev:
+    container_name: node-superorganism
+    image: paritytech/ci-linux:production
+    working_dir: /var/www/node-superorganism
+    ports:
+      - "9944:9944"
+    environment:
+      - CARGO_HOME=/var/www/node-superorganism/.cargo
+    volumes:
+      - .:/var/www/node-superorganism
+      - type: bind
+        source: ./.local
+        target: /root/.local
+    command: bash -c "cargo build --release && ./target/release/node-superorganism --dev --ws-external"

@@ -1,0 +1,13 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+	'pallets/community_identity',
+	'pallets/council',
+	'pallets/project',
+    'pallets/proposal',
+	'pallets/proposal_types',
+    'runtime',
+]

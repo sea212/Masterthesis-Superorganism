@@ -1,0 +1,4 @@
+[submodule "implementation/superorganism"]
+	path = implementation/superorganism
+	url = https://github.com/sea212/superorganism.git
+	branch = main
