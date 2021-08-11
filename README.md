@@ -5,7 +5,7 @@ technologies and artificial intelligence have created new but largely
 unexplored possibilities. This work evaluates how those technologies
 can be combined to create a decentralized platform, that is completely
 controlled by the community and whose purpose is solely defined by the
-community. The system permits the bundling of power in form of
+community. The system prohibits the bundling of power in form of
 central authorities and equally spreads the power over the community,
 the only requirement for participation being the possession of a
 computer with a webcam. In addition, financial wealth must not lead
